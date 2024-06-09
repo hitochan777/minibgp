@@ -1,7 +1,5 @@
 use minibgp::config::Config;
 use minibgp::peer::Peer;
-use std::{str::FromStr, vec};
-
 use tokio::time::{sleep, Duration};
 
 #[tokio::main]
