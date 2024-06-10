@@ -2,4 +2,6 @@
 pub enum State {
     Idle,
     Connect,
+    OpenSent,
+    OpenConfirm,
 }

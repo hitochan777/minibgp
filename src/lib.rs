@@ -6,5 +6,6 @@ mod connection;
 mod error;
 mod event;
 mod event_queue;
+mod packets;
 pub mod peer;
 mod state;
